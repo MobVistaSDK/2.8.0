@@ -1,14 +1,14 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "MobVista"
+  s.name         = "MobVistaSDK"
   s.version      = "2.7.0"
-  s.summary      = "A short description of MobVista."
+  s.summary      = "MobVista framework"
   s.license      = "MIT"
   s.homepage     = 'https://github.com/MobVistaSDK/SDK.git'
   s.author             = { "junjie.chen" => "junjie.chen@mobvista.com" }
   s.ios.deployment_target = "7.0"
-  s.source       = { :git => "https://github.com/MobVistaSDK/SDK.git", :tag => "s.version" }
+  s.source       = { :git => "https://github.com/MobVistaSDK/SDK.git", :tag =>s.version }
 
   s.vendored_frameworks = 'MVSDK.framework','MVSDKAppWall.framework','MVSDKOfferWall.framework','MVSDKInterstitial.framework','MVSDKReward.framework'
 
